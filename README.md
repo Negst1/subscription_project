@@ -7,7 +7,7 @@
 ```bash
 
 # 1. Клонируй репозиторий
-git clone https://github.com/Negst1/subscribe_project.git
+git clone https://github.com/Negst1/subscribtion_project.git
 
 # 2. Запустите всё одной командой
 docker-compose up --build -d
@@ -31,3 +31,6 @@ Host: postgres
 Port: 5432
 Username: postgres
 Pass: postgres
+
+#5. Путь к сваггеру
+http://localhost:{port}/swagger/index.html
